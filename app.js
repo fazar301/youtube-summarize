@@ -16,7 +16,7 @@ app.use(e.urlencoded({ extended: true }));
 
 const client = new OpenAI({
     baseURL: "https://openrouter.ai/api/v1",
-    apiKey: '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'
+    apiKey: process.env.OPENAI_API_KEY
 });
 
 function extractYouTubeID(url) {
