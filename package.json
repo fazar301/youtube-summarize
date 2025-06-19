@@ -6,5 +6,8 @@
     "youtube-transcript": "^1.2.1",
     "youtube-transcript-api": "^2.0.4"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "dev": "node app.js"
+  }
 }
