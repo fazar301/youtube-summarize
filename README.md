@@ -11,7 +11,7 @@ A web app that summarizes YouTube videos using AI.
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/fazar301/youtube-summarize
    cd youtube-summarizer
    ```
 
